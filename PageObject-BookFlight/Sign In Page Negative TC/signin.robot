@@ -16,6 +16,10 @@ Input Username
     Input Text                       locator=//android.widget.EditText[@resource-id="com.example.myapplication:id/username"]   text=support@
 
 
+Input User Password
+    Input Text                       locator=//android.widget.EditText[@resource-id="com.example.myapplication:id/password"]   text=abc123
+
+
 Click Login Button
     Click Element                    locator=//android.widget.Button[@resource-id="com.example.myapplication:id/signIn"]
 
