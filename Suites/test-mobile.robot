@@ -2,6 +2,8 @@
 Resource        ../PageObject-BookFlight/LoginPage/loginPage.robot
 Resource        ../PageObject-BookFlight/BookPage/bookPage.robot
 Resource        ../PageObject-BookFlight/PaymentPage/paymentPage.robot
+Resource        ../PageObject-BookFlight/LogoutPage/logoutPage.robot
+Resource        ../PageObject-BookFlight/SearchPage/searchPage.robot
 
 *** Test Cases ***
 User should be able to login with valid credential
@@ -30,5 +32,13 @@ User Pay For The Ticket
     Click Confirm
     Verify Reservation Number
 
+User Search for The Ticket
+    Click SearchPage Button
+    Verify Search Page
+    Input Ticket
+    Click Search Button
 
+User Log Out
+    Verify Homescreen After Login
+    Click Sign Out Button
 
