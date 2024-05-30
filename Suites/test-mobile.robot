@@ -38,7 +38,5 @@ User Search for The Ticket
     Input Ticket
     Click Search Button
 
-User Log Out
-    Verify Homescreen After Login
-    Click Sign Out Button
+
 
